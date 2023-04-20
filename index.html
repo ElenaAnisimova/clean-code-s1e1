@@ -8,9 +8,9 @@
       href="style.css" media="screen" charset="utf-8">
 </head>
 
-<body>
+<body class="body">
   <div class="header">
-    <img src="./eisenhower-matrix.jpg">
+    <img class="header__image" src="./eisenhower-matrix.jpg">
     <a class="header__link" 
         href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
@@ -22,7 +22,7 @@
       <button class="new-task__button">Add</button>
     </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="heading">Todo</h3>
     <ul class="task-list">
       <li class="task-list__item">
         <input class="task-list__checkbox" type="checkbox">
@@ -30,7 +30,7 @@
         <input class="task-list__input" type="text" >
         <button class="task-list__edit-button">Edit</button>
         <button class="task-list__delete-button">
-          <img src="./remove.svg">
+          <img class="delete-button__img" src="./remove.svg">
         </button>
       </li>
       <li class="task-list__item task-list__item_edit-mode">
@@ -40,19 +40,19 @@
             value="Go Shopping">
         <button class="task-list__edit-button">Save</button>
         <button class="task-list__delete-button">
-          <img src="./remove.svg">
+          <img class="delete-button__img" src="./remove.svg">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="heading">Completed</h3>
     <ul class="task-list-completed">
       <li class="task-list__item">
         <input class="task-list__checkbox task-list__checkbox_checked" type="checkbox" checked>
-        <label class="task-list__label">See the Doctor</label>
+        <label class="task-list__label task-list__label_completed">See the Doctor</label>
         <input class="task-list__input" type="text">
         <button class="task-list__edit-button">Edit</button>
         <button class="task-list__delete-button">
-          <img src="./remove.svg"></button>
+          <img class="delete-button__img" src="./remove.svg"></button>
       </li>
     </ul>
   </div>
