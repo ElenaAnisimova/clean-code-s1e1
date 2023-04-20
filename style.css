@@ -32,7 +32,7 @@ body {
   margin: 0 auto 0;
 }
 
-.wrapper-new-task__input,
+.new-task__input,
 .task-list__label,
 .task-list__input {
   width: 56%;
@@ -40,7 +40,7 @@ body {
   flex-grow: 1
 }
 
-.wrapper-new-task {
+.new-task {
   display: flex;
 }
 
